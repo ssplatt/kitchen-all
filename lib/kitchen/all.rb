@@ -28,7 +28,7 @@ module Kitchen
 
     private
       def drivers
-        Gems.search('kitchen-')
+        @drivers ||= Gems.search('kitchen-').reject { |driver| driver['name'] == 'kitchen-all' }
       end
 
       def parse_project_url(driver)

@@ -1,5 +1,7 @@
 kitchen-all
 ===========
+[![Gem Version](https://badge.fury.io/rb/kitchen-all.png)](http://badge.fury.io/rb/kitchen-all)
+
 Sometimes you just want all the test-kitchen drivers known to man. And that's what `kitchen-all` does!
 
 

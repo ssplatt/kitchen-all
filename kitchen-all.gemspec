@@ -22,5 +22,18 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'gems', '~> 0.8'
   spec.add_development_dependency 'rake'
 
-  Kitchen::All.driver_specs(spec)
+  spec.add_runtime_dependency 'kitchen-bluebox', '~> 0.6.1' # TK
+  spec.add_runtime_dependency 'kitchen-cloudstack', '~> 0.1.3' # TK
+  spec.add_runtime_dependency 'kitchen-digitalocean', '~> 0.2.0' # TK
+  spec.add_runtime_dependency 'kitchen-docker', '~> 0.5.0' # TK
+  spec.add_runtime_dependency 'kitchen-ec2', '~> 0.5.1' # TK
+  spec.add_runtime_dependency 'kitchen-fifo', '~> 0.1.0' # TK
+  spec.add_runtime_dependency 'kitchen-libvirtlxc', '~> 0.4.0' # TK
+  spec.add_runtime_dependency 'kitchen-lxc', '~> 0.0.1.beta1' # TK
+  spec.add_runtime_dependency 'kitchen-openstack', '~> 0.4.0' # TK
+  spec.add_runtime_dependency 'kitchen-rackspace', '~> 0.2.0' # TK
+  spec.add_runtime_dependency 'kitchen-scribe', '~> 0.2.0' # TK
+  spec.add_runtime_dependency 'kitchen-sshgzip', '~> 0.0.3' # TK
+  spec.add_runtime_dependency 'kitchen-vagrant', '~> 0.10.0' # TK
+  spec.add_runtime_dependency 'kitchen-zcloudjp', '~> 0.2.2' # TK
 end

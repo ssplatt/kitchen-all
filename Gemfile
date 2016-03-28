@@ -15,3 +15,4 @@ gem 'kitchen-scribe', :git => 'git://github.com/khozlov/kitchen-scribe.git' # TK
 gem 'kitchen-sshgzip', :git => 'git://github.com/maxim/kitchen-sshgzip.git' # TK
 gem 'kitchen-vagrant', :git => 'git://github.com/opscode/kitchen-vagrant.git' # TK
 gem 'kitchen-zcloudjp', :git => 'git://github.com/higanworks/kitchen-zcloudjp.git' # TK
+gem 'kitchen-linode', :git => 'git@github.com:ssplatt/kitchen-linode.git' # TK
